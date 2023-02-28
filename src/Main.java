@@ -32,7 +32,7 @@ public class Main {
             minMaxConsumer.accept(list.get(0), list.get(list.size() - 1));
         }
     }
-    public static int countEvenNumber(List<Integer> integers) {
+    public static void int countEvenNumber(List<Integer> integers) {
         return (int) integers.stream()
                 .filter(i -> i % 2 == 0)
                 .peek(System.out::println)
